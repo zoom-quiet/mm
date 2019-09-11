@@ -1,0 +1,215 @@
+digraph zoomquiet_io_idx {
+    /*生成命令:
+$ dot -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_io_idx.map
+$ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_io_idx.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.9,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+    title [label="zoomquiet.io 资源图谱\nTime is unimportant,only life important!\nv.190718"
+        URL="https://bitbucket.org/ZoomQuiet/tangle/commits/a2e1916b57206724d9fe0edb95506efbbb5ab0f0?at=default#chg-dot/zoomquiet.org/zoomquiet_io_collection.dot"];
+
+    mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="mailto:i@zoomquiet.io?subject=zoomquiet.io mapping feedback"];
+
+    ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
+            <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>
+            ,URL="https://plus.google.com/+ZoomQuiet/about"
+            ];
+
+    ZQ->{link doing organize saying};
+
+
+    doing [label="Making",shape=folder
+        ,URL="http://code.google.com/u/Zoom.Quiet/"];
+        OBP [label="OBP",shape=box3d
+            ,URL="/obp/index.html"];
+        PiC [label="蟒营",shape=box3d
+            ,URL="http://code.google.com/p/kcpycamp/"];
+        camp [label="101.camp",shape=box3d
+            ,URL="https://101.camp/"];
+        camppy [label="Pythonic\n入门班",shape=folder
+            ,URL="https://py.101.camp/"];
+        campwr [label="写作\n入门班",shape=folder
+            ,URL="#"];
+        campdj [label="Django\n入门班",shape=folder
+            ,URL="#"];
+        campclj [label="Clojure\n入门班",shape=folder
+            ,URL="#"];
+        campexs [label="Elixir\n入门班",shape=folder
+            ,URL="#"];
+        campkm [label="知识管理\n入门班",shape=folder
+            ,URL="#"];
+
+        PiC->camp [style="setlinewidth(3)"];
+            camp->camppy [style="setlinewidth(4)"];
+            camp->{campwr campdj campclj campexs campkm} [label="筹备ing.",style="dashed"];
+
+
+    code [label="Coding",shape=folder];
+        trac [label="KTRAC",shape=box3d
+            ,URL="https://bitbucket.org/ZoomQuiet/trachinese/overview"];
+        WK [label="WeKnow",shape=box3d,style="dashed",height=0.5
+            ,URL="http://wiki.woodpecker.org.cn/moin/WeKnow"];
+        github [label="GitHub"
+            ,URL="https://github.com/ZoomQuiet"];
+        gitcafe [label="gitcafe"
+            ,URL="https://gitcafe.com/ZoomQuiet"];
+        bitb [label="bitbucket"
+            ,URL="https://bitbucket.org/ZoomQuiet"];
+        gitlab [label="gitlab"
+            ,URL="https://gitlab.com/ZoomQuiet"];
+
+
+
+    doing->{PiC OBP code}[style="setlinewidth(2)"];
+        doing->WK [label="构思ing"];
+        code->trac [label="团队散了",style="dotted"];
+        code->gitcafe [label="公司倒了",style="dotted"];
+        code->bitb [style="setlinewidth(1)"];
+        code->github [style="setlinewidth(3)"];
+        code->gitlab [style="setlinewidth(4)"];
+
+    organize [label="Organize",shape=folder];
+        pyc [label="PyChina"
+            ,URL="http://pychina.org"];
+        cpug [label="CPyUG"
+            ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
+        weekly [label="蟒周刊"
+            ,URL="http://weekly.pychina.org/"];
+
+        tparty [label="TechParty"
+            ,URL="http://techparty.org/"];
+        zhgdg [label="珠海 GDG"
+            ,URL="http://blog.zhgdg.org/about.html"];
+        zhtfug [label="TFUG 珠海"
+            ,URL="http://zh.tfug.world/"];
+
+
+        zeuux [label="哲思"
+            ,URL="http://www.zeuux.org/community/zeuux-activist.cn.html"];
+        ecug [label="ECUG"
+            ,URL="http://code.google.com/p/ecug/wiki/FrontPage"];
+            erlb [label="恶狼战役"
+                ,URL="http://code.google.com/p/erlbattle/"];
+        sll [label="教育大发现"
+            ,URL="http://code.google.com/p/socialorganizelab/wiki/SllPrjZQ"];
+
+    organize->{ecug zeuux}[style="dotted"];
+        organize->zhgdg [style="setlinewidth(2)"];
+        organize->zhtfug [style="setlinewidth(3)"];
+
+        organize->tparty [style="setlinewidth(1)"];
+        organize->pyc->cpug [style="setlinewidth(2)"];
+        pyc->weekly [style="setlinewidth(3)"];
+        organize->sll [style="dotted"];
+        ecug->erlb [label="结束",style="dotted"];
+
+
+    saying [label="Saying",shape=folder
+        ,URL="http://res.zoomquiet.io/"];
+
+        wiki [label="维基",shape=tab];
+            moin [label="MoinMoin"
+                ,URL="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"];
+            markdoc [label="markdoc"
+                ,URL="http://wiki.zoomquiet.io"];
+
+        SNS [label="SNS",shape=tab];
+
+        douban [label="豆瓣"
+            ,URL="http://www.douban.com/group/zoomquiet/"];
+        jianshu [label="简书"
+            ,URL="http://www.jianshu.com/users/3908d6bf439d/latest_articles"];
+        weibo [label="微博"
+            ,URL="http://weibo.com/zoomquiet"];
+        sfgg [label="sf.gg"
+            ,URL="http://segmentfault.com/blog/zoomquiet"];
+        zhihu [label="zhihu"
+            ,URL="https://zhuanlan.zhihu.com/chaos42"];
+
+        blogging [label="blogging",shape=tab
+            ,URL="#"];
+            gb [label="@blogger"
+                ,URL="http://zoomquiet.blogspot.com/"];
+            lj [label="@livejournal"
+                ,URL="http://zoomq.livejournal.com/"];
+            pelican [label="Pelican"
+                ,URL="http://blog.zoomquiet.io/"];
+            pyb [label="PyBlosxom"
+                ,URL="http://blog.zoomquiet.org/pyblosxom/"];
+
+    saying->SNS->{douban jianshu sfgg weibo zhihu}[style="dotted"];
+        saying->wiki [style="setlinewidth(1)"];
+            wiki->moin [label="静止\n啄木鸟社区",style="dotted"];
+            wiki->markdoc [label="新鲜\n自架静态",style="setlinewidth(1)"];
+        saying->blogging [style="setlinewidth(1)"];
+            blogging->pelican [style="setlinewidth(2)"];
+            blogging->pyb [label="遗迹中"];
+            blogging->lj [label="荒凉中",style="dotted"];
+            blogging->gb [label="河蟹了",style="dotted"];
+
+
+    link [label="关注",shape=folder,URL="people-idx.html"];
+        collection [label="Collection",shape=tab
+            ,URL="collection.html"];
+    link->collection [label="长期坚持", style="setlinewidth(2)"];
+
+        
+    edge [style=invis];
+        title->saying;
+    /*
+mailme->organize
+        sb [label="ScrapBook",shape=tab
+            ,URL="http://blog.zoomquiet.io/zq-chk4scrapbook.html"];
+            FLOSS [label="FLOSS"
+                ,URL="http://floss.zoomquiet.io/"];
+            Coder [label="Coder"
+                ,URL="http://coder.zoomquiet.io/"];
+            SKM [label="SKM"
+                ,URL="http://skm.zoomquiet.io/"];
+            SCM [label="SCM"
+                ,URL="http://scm.zoomquiet.io/"];
+            SMM [label="SMM"
+                ,URL="http://smm.zoomquiet.io/"];
+            Pythonic [label="Pythonic"
+                ,URL="http://pythonic.zoomquiet.io/"];
+            DevRes [label="DevRes"
+                ,URL="http://devres.zoomquiet.io/"];
+            DevRel [label="DevRel"
+                ,URL="http://devrel.zoomquiet.io/"];
+
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+        flickr [label="Flickr"
+            ,URL="http://www.flickr.com/photos/zoomq/"];
+
+    sb->FLOSS [label="自由开源",style="setlinewidth(1)"];
+        sb->SCM [label="系统,配置",style="setlinewidth(1)"];
+        sb->Pythonic [label="蠎样领域",style="setlinewidth(1)"];
+        sb->DevRes [label="开发资源",style="setlinewidth(1)"];
+    sb->SKM [label="社会知识",style="setlinewidth(1)"];
+        sb->SMM [label="移动互联",style="setlinewidth(1)"];
+        sb->DevRel [label="社区思考",style="setlinewidth(1)"];
+        sb->Coder [label="码农感悟",style="setlinewidth(1)"];
+    */
+
+}

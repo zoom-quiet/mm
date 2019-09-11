@@ -1,0 +1,67 @@
+digraph qiniu_chaos2_idx {
+    /*生成命令:
+$ dot -Tjpeg qiniu_chaos2_idx.dot -o qiniu_chaos2_idx.jpg -Tcmapx -o qiniu_chaos2_idx.map
+$ python ../dotools/gen4dot2htm.py -t ../dotools/tpl_idx.htm -i "chaos4* O.B.P index" -d qiniu_chaos2_idx.dot -o qiniu_chaos2_idx.html
+
+    全局设定
+    */
+
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="r",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=BT
+        ,bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.5,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+
+    OBP      [label="O.B.P~OpenBookProjects\n开放图书计划",shape=box3d
+        ,URL="https://github.com/OpenBookProjects/wiki"];
+
+    original  [label="原创",shape=tab];
+
+    chaosbook  [label="乱入",shape=folder];
+        crx   [label="crx",shape=note
+            ,URL="http://chaos2.zoomquiet.top/crx/build/html/"];
+        go1   [label="Go",shape=note
+            ,URL="http://chaos2.zoomquiet.top/go1/build/html/"];
+        node1   [label="node.js",shape=note
+            ,URL="http://chaos2.zoomquiet.top/node/build/html/"];
+        openresty   [label="openresty",shape=note
+            ,URL="http://chaos2.zoomquiet.top/openresty/build/html/"];
+        sae   [label="SAE",shape=note
+            ,URL="http://chaos2.zoomquiet.top/sae/build/html/"];
+        wechat   [label="wechat",shape=note
+            ,URL="http://chaos2.zoomquiet.top/wechat/build/html/"];
+
+    OBP->original->chaosbook;
+
+        chaosbook->{go1 node1 openresty sae wechat} [style="setlinewidth(1)",color=green];
+        chaosbook->crx [label="100%",style="setlinewidth(3)",color=green];
+
+    title [label="Chaos2 系统小书 索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!"
+        URL="https://bitbucket.org/ZoomQuiet/tangle/src/f7d3402616263fe1ba3b9fd360c623e257349f1d/dot/zoomquiet.org/7niu_chaos2.dot"];
+    
+    ZQ  [label="返回\nzoomquiet.io",shape=ellipse,style="dotted"
+        ,URL="http://zoomquiet.io"];
+    
+
+    mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="mailto:i@zoomquiet.io?subject=OBP_chaos2 mapping feedback"];
+
+    edge [style=invis];
+    title->{mailme ZQ};
+
+}

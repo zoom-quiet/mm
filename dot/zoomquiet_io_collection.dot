@@ -1,0 +1,97 @@
+digraph zoomquiet_io_collection {
+    /*生成命令:
+$ dot -Tpng zoomquiet_io_collection.dot -o zoomquiet_io_collection.png -Tcmapx -o zoomquiet_io_collection.map
+$ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_io_idx.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="r",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)"
+        ,fillcolor="#333333"
+        ,color=gray
+        ,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.5,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+/*
+    collection [label="资料\n收集/分享",shape=point];
+    collection->{scrapbook qiniu};
+*/
+    title->{scrapbook qiniu};
+
+    scrapbook [label="scrapbook",shape=tab
+            ,URL="http://www.xuldev.org/scrapbook/"];
+        FLOSS [label="FLOSS"
+            ,URL="http://floss.zoomquiet.io/"];
+        Coder [label="Coder"
+            ,URL="http://coder.zoomquiet.io/"];
+        SKM [label="SKM"
+            ,URL="http://skm.zoomquiet.io/"];
+        SCM [label="SCM"
+            ,URL="http://scm.zoomquiet.io/"];
+        SMM [label="SMM"
+            ,URL="http://smm.zoomquiet.io/"];
+        Pythonic [label="Pythonic"
+            ,URL="http://pythonic.zoomquiet.io/"];
+        DevRes [label="DevRes"
+            ,URL="http://devres.zoomquiet.io/"];
+        DevRel [label="DevRel"
+            ,URL="http://devrel.zoomquiet.io/"];
+
+    scrapbook->FLOSS [label="自由开源",style="setlinewidth(1)"];
+        scrapbook->SCM [label="系统,配置",style="setlinewidth(1)"];
+        scrapbook->Pythonic [label="蠎样领域",style="setlinewidth(1)"];
+        scrapbook->DevRes [label="开发资源",style="setlinewidth(1)"];
+    scrapbook->SKM [label="社会知识",style="setlinewidth(1)"];
+        scrapbook->SMM [label="移动互联",style="setlinewidth(1)"];
+        scrapbook->DevRel [label="社区思考",style="setlinewidth(1)"];
+        scrapbook->Coder [label="码农感悟",style="setlinewidth(1)"];
+
+
+    qiniu [label="七牛",shape=tab
+            ,URL="http://developer.qiniu.com/"];
+        res [label="资源"
+            ,URL="http://res.zoomquiet.io/"];
+        s5 [label="s5 幻灯"
+            ,URL="http://s5.zoomquiet.io/"];
+        chaos [label="乱入 系统小书"
+            ,URL="http://chaos2.zoomquiet.io/"];
+
+        pypi [label="PyPi 镜像"
+            ,URL="http://pypi.zhgdg.org"];
+        momoko [label="丸子家.在内 🐒"
+            ,URL="http://momoko.in/"];
+
+    qiniu->{res s5 chaos};
+        qiniu->momoko [label="家庭笔记",style="setlinewidth(1)"];
+        qiniu->pypi [label="筹备ing",style="dotted"];
+
+
+    title [label="私人资料收集/分享 索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!"
+        URL="https://bitbucket.org/ZoomQuiet/tangle/commits/a2e1916b57206724d9fe0edb95506efbbb5ab0f0?at=default#chg-dot/zoomquiet.org/zoomquiet_io_idx.dot"];
+    
+    ZQ  [label="返回\nzoomquiet.io",shape=ellipse,style="dotted"
+        ,URL="http://zoomquiet.io"];
+    
+
+    mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="mailto:i@zoomquiet.io?subject=collection mapping feedback"];
+
+    edge [style=invis];
+    mailme->scrapbook;
+
+}
