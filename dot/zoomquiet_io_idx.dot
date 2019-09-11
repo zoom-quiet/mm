@@ -23,7 +23,7 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
         ,style="setlinewidth(0.5)"
         ];
     title [label="zoomquiet.io 资源图谱\nTime is unimportant,only life important!\nv.190718"
-        URL="https://bitbucket.org/ZoomQuiet/tangle/commits/a2e1916b57206724d9fe0edb95506efbbb5ab0f0?at=default#chg-dot/zoomquiet.org/zoomquiet_io_collection.dot"];
+        URL="https://github.com/zoom-quiet/io/blob/master/dot/zoomquiet_io_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
@@ -31,18 +31,18 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
 
     ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
             <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>
-            ,URL="https://plus.google.com/+ZoomQuiet/about"
+            ,URL="https://www.linkedin.com/in/zoomquiet/"
             ];
 
     ZQ->{link doing organize saying};
 
 
     doing [label="Making",shape=folder
-        ,URL="http://code.google.com/u/Zoom.Quiet/"];
+        ,URL="https://github.com/ZoomQuiet"];
         OBP [label="OBP",shape=box3d
             ,URL="/obp/index.html"];
         PiC [label="蟒营",shape=box3d
-            ,URL="http://code.google.com/p/kcpycamp/"];
+            ,URL="https://github.com/ZoomQuiet/kcpycamp"];
         camp [label="101.camp",shape=box3d
             ,URL="https://101.camp/"];
         camppy [label="Pythonic\n入门班",shape=folder
@@ -108,9 +108,9 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
         ecug [label="ECUG"
             ,URL="http://code.google.com/p/ecug/wiki/FrontPage"];
             erlb [label="恶狼战役"
-                ,URL="http://code.google.com/p/erlbattle/"];
+                ,URL="https://github.com/ZoomQuiet/erlbattle"];
         sll [label="教育大发现"
-            ,URL="http://code.google.com/p/socialorganizelab/wiki/SllPrjZQ"];
+            ,URL="https://github.com/ZoomQuiet/sociallearnlab"];
 
     organize->{ecug zeuux}[style="dotted"];
         organize->zhgdg [style="setlinewidth(2)"];
@@ -124,7 +124,7 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
 
 
     saying [label="Saying",shape=folder
-        ,URL="http://res.zoomquiet.io/"];
+        ,URL="http://org.up.zoomquiet.top/ztapes/"];
 
         wiki [label="维基",shape=tab];
             moin [label="MoinMoin"

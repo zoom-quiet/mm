@@ -1,13 +1,13 @@
 <map id="zoomquiet_io_idx" name="zoomquiet_io_idx">
-<area shape="rect" id="node1" href="https://bitbucket.org/ZoomQuiet/tangle/commits/a2e1916b57206724d9fe0edb95506efbbb5ab0f0?at=default#chg-dot/zoomquiet.org/zoomquiet_io_collection.dot" title="zoomquiet.io 资源图谱\nTime is unimportant,only life important!\nv.190718" alt="" coords="131,346,404,407"/>
-<area shape="rect" id="node7" href="http://res.zoomquiet.io/" title="Saying" alt="" coords="556,362,628,391"/>
+<area shape="rect" id="node1" href="https://github.com/zoom-quiet/io/blob/master/dot/zoomquiet_io_idx.dot" title="zoomquiet.io 资源图谱\nTime is unimportant,only life important!\nv.190718" alt="" coords="131,346,404,407"/>
+<area shape="rect" id="node7" href="http://org.up.zoomquiet.top/ztapes/" title="Saying" alt="" coords="556,362,628,391"/>
 <area shape="poly" id="node2" href="mailto:i@zoomquiet.io?subject=zoomquiet.io mapping feedback" title="电俺" alt="" coords="303,300,302,293,296,287,288,282,278,279,267,278,256,279,246,282,238,287,233,293,231,300,233,307,238,313,246,318,256,321,267,322,278,321,288,318,296,313,302,307"/>
-<area shape="rect" id="node3" href="https://plus.google.com/+ZoomQuiet/about" title="&lt;TABLE&gt;" alt="" coords="5,610,529,721"/>
+<area shape="rect" id="node3" href="https://www.linkedin.com/in/zoomquiet/" title="&lt;TABLE&gt;" alt="" coords="5,610,529,721"/>
 <area shape="rect" id="node4" href="people-idx.html" title="关注" alt="" coords="556,597,628,628"/>
-<area shape="rect" id="node5" href="http://code.google.com/u/Zoom.Quiet/" title="Making" alt="" coords="556,696,628,726"/>
+<area shape="rect" id="node5" href="https://github.com/ZoomQuiet" title="Making" alt="" coords="556,696,628,726"/>
 <area shape="rect" id="node48" href="collection.html" title="Collection" alt="" coords="707,588,792,618"/>
 <area shape="rect" id="node8" href="/obp/index.html" title="OBP" alt="" coords="714,642,786,671"/>
-<area shape="rect" id="node9" href="http://code.google.com/p/kcpycamp/" title="蟒营" alt="" coords="714,695,786,727"/>
+<area shape="rect" id="node9" href="https://github.com/ZoomQuiet/kcpycamp" title="蟒营" alt="" coords="714,695,786,727"/>
 <area shape="rect" id="node19" href="http://wiki.woodpecker.org.cn/moin/WeKnow" title="WeKnow" alt="" coords="710,804,789,852"/>
 <area shape="rect" id="node24" href="http://pychina.org" title="PyChina" alt="" coords="711,935,788,964"/>
 <area shape="rect" id="node27" href="http://techparty.org/" title="TechParty" alt="" coords="706,988,793,1018"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node29" href="http://zh.tfug.world/" title="TFUG 珠海" alt="" coords="702,1097,797,1128"/>
 <area shape="rect" id="node30" href="http://www.zeuux.org/community/zeuux-activist.cn.html" title="哲思" alt="" coords="714,1151,786,1183"/>
 <area shape="rect" id="node31" href="http://code.google.com/p/ecug/wiki/FrontPage" title="ECUG" alt="" coords="714,1207,786,1236"/>
-<area shape="rect" id="node33" href="http://code.google.com/p/socialorganizelab/wiki/SllPrjZQ" title="教育大发现" alt="" coords="702,1261,797,1292"/>
+<area shape="rect" id="node33" href="https://github.com/ZoomQuiet/sociallearnlab" title="教育大发现" alt="" coords="702,1261,797,1292"/>
 <area shape="rect" id="node43" href="#" title="blogging" alt="" coords="711,455,788,484"/>
 <area shape="rect" id="node10" href="https://101.camp/" title="101.camp" alt="" coords="886,615,972,644"/>
 <area shape="rect" id="node11" href="https://py.101.camp/" title="Pythonic\n入门班" alt="" coords="1046,425,1124,471"/>
@@ -31,7 +31,7 @@
 <area shape="rect" id="node23" href="https://gitlab.com/ZoomQuiet" title="gitlab" alt="" coords="893,882,965,911"/>
 <area shape="rect" id="node25" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG" alt="" coords="893,935,965,964"/>
 <area shape="rect" id="node26" href="http://weekly.pychina.org/" title="蟒周刊" alt="" coords="893,989,965,1020"/>
-<area shape="rect" id="node32" href="http://code.google.com/p/erlbattle/" title="恶狼战役" alt="" coords="889,1206,969,1237"/>
+<area shape="rect" id="node32" href="https://github.com/ZoomQuiet/erlbattle" title="恶狼战役" alt="" coords="889,1206,969,1237"/>
 <area shape="rect" id="node35" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet" title="MoinMoin" alt="" coords="887,12,972,42"/>
 <area shape="rect" id="node36" href="http://wiki.zoomquiet.io" title="markdoc" alt="" coords="891,76,968,106"/>
 <area shape="rect" id="node38" href="http://www.douban.com/group/zoomquiet/" title="豆瓣" alt="" coords="893,130,965,161"/>
