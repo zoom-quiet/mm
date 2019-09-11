@@ -1,0 +1,20 @@
+<map id="zoomquiet_io_collection" name="zoomquiet_io_collection">
+<area shape="rect" id="node1" href="https://github.com/zoom-quiet/io/blob/master/dot/zoomquiet_io_collection.dot" title="私人资料收集/分享 索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!" alt="" coords="5,249,278,310"/>
+<area shape="rect" id="node2" href="http://www.xuldev.org/scrapbook/" title="scrapbook" alt="" coords="301,445,390,474"/>
+<area shape="rect" id="node3" href="http://developer.qiniu.com/" title="七牛" alt="" coords="309,147,381,178"/>
+<area shape="rect" id="node4" href="http://floss.zoomquiet.top/tree/" title="FLOSS" alt="" coords="488,285,560,314"/>
+<area shape="rect" id="node5" href="http://coder.zoomquiet.top/tree/" title="Coder" alt="" coords="488,338,560,368"/>
+<area shape="rect" id="node6" href="http://skm.zoomquiet.top/tree/" title="SKM" alt="" coords="488,392,560,421"/>
+<area shape="rect" id="node7" href="http://scm.zoomquiet.top/tree/" title="SCM" alt="" coords="488,445,560,474"/>
+<area shape="rect" id="node8" href="http://smm.zoomquiet.top/tree/" title="SMM" alt="" coords="488,498,560,528"/>
+<area shape="rect" id="node9" href="http://pythonic.zoomquiet.top/tree/" title="Pythonic" alt="" coords="485,552,563,581"/>
+<area shape="rect" id="node10" href="http://devres.zoomquiet.top/tree/" title="DevRes" alt="" coords="487,605,560,634"/>
+<area shape="rect" id="node11" href="http://devrel.zoomquiet.top/tree/" title="DevRel" alt="" coords="488,658,560,688"/>
+<area shape="rect" id="node12" href="http://0.zoomquiet.top/" title="资源" alt="" coords="488,175,560,206"/>
+<area shape="rect" id="node13" href="http://s5.zoomquiet.top/" title="s5 幻灯" alt="" coords="488,229,560,261"/>
+<area shape="rect" id="node14" href="http://chaos2.zoomquiet.top/" title="乱入 系统小书" alt="" coords="467,5,580,37"/>
+<area shape="rect" id="node15" href="#" title="PyPi 镜像" alt="" coords="481,60,566,91"/>
+<area shape="rect" id="node16" href="http://momoko.in/" title="丸子家.在内 🐒" alt="" coords="462,116,585,150"/>
+<area shape="poly" id="node17" href="http://zoomquiet.io" title="返回\nzoomquiet.io" alt="" coords="216,193,212,183,201,174,185,167,165,162,142,161,119,162,98,167,82,174,71,183,68,193,71,203,82,212,98,219,119,224,142,225,165,224,185,219,201,212,212,203"/>
+<area shape="poly" id="node18" href="mailto:101@mainium.icu?subject=collection mapping feedback" title="电俺" alt="" coords="178,460,176,453,171,447,163,442,153,439,142,438,131,439,121,442,113,447,107,453,106,460,107,466,113,473,121,477,131,481,142,482,153,481,163,477,171,473,176,466"/>
+</map>

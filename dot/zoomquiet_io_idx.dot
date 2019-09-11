@@ -27,7 +27,7 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
-        ,URL="mailto:i@zoomquiet.io?subject=zoomquiet.io mapping feedback"];
+        ,URL="mailto:101@mainium.icu?subject=zoomquiet.io mapping feedback"];
 
     ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
             <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>

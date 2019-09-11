@@ -35,21 +35,21 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
     scrapbook [label="scrapbook",shape=tab
             ,URL="http://www.xuldev.org/scrapbook/"];
         FLOSS [label="FLOSS"
-            ,URL="http://floss.zoomquiet.io/"];
+            ,URL="http://floss.zoomquiet.top/tree/"];
         Coder [label="Coder"
-            ,URL="http://coder.zoomquiet.io/"];
+            ,URL="http://coder.zoomquiet.top/tree/"];
         SKM [label="SKM"
-            ,URL="http://skm.zoomquiet.io/"];
+            ,URL="http://skm.zoomquiet.top/tree/"];
         SCM [label="SCM"
-            ,URL="http://scm.zoomquiet.io/"];
+            ,URL="http://scm.zoomquiet.top/tree/"];
         SMM [label="SMM"
-            ,URL="http://smm.zoomquiet.io/"];
+            ,URL="http://smm.zoomquiet.top/tree/"];
         Pythonic [label="Pythonic"
-            ,URL="http://pythonic.zoomquiet.io/"];
+            ,URL="http://pythonic.zoomquiet.top/tree/"];
         DevRes [label="DevRes"
-            ,URL="http://devres.zoomquiet.io/"];
+            ,URL="http://devres.zoomquiet.top/tree/"];
         DevRel [label="DevRel"
-            ,URL="http://devrel.zoomquiet.io/"];
+            ,URL="http://devrel.zoomquiet.top/tree/"];
 
     scrapbook->FLOSS [label="自由开源",style="setlinewidth(1)"];
         scrapbook->SCM [label="系统,配置",style="setlinewidth(1)"];
@@ -64,14 +64,14 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
     qiniu [label="七牛",shape=tab
             ,URL="http://developer.qiniu.com/"];
         res [label="资源"
-            ,URL="http://res.zoomquiet.io/"];
+            ,URL="http://0.zoomquiet.top/"];
         s5 [label="s5 幻灯"
-            ,URL="http://s5.zoomquiet.io/"];
+            ,URL="http://s5.zoomquiet.top/"];
         chaos [label="乱入 系统小书"
-            ,URL="http://chaos2.zoomquiet.io/"];
+            ,URL="http://chaos2.zoomquiet.top/"];
 
         pypi [label="PyPi 镜像"
-            ,URL="http://pypi.zhgdg.org"];
+            ,URL="#"];
         momoko [label="丸子家.在内 🐒"
             ,URL="http://momoko.in/"];
 
@@ -81,7 +81,7 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
 
 
     title [label="私人资料收集/分享 索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!"
-        URL="https://bitbucket.org/ZoomQuiet/tangle/commits/a2e1916b57206724d9fe0edb95506efbbb5ab0f0?at=default#chg-dot/zoomquiet.org/zoomquiet_io_idx.dot"];
+        URL="https://github.com/zoom-quiet/io/blob/master/dot/zoomquiet_io_collection.dot"];
     
     ZQ  [label="返回\nzoomquiet.io",shape=ellipse,style="dotted"
         ,URL="http://zoomquiet.io"];
@@ -89,7 +89,7 @@ $ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
-        ,URL="mailto:i@zoomquiet.io?subject=collection mapping feedback"];
+        ,URL="mailto:101@mainium.icu?subject=collection mapping feedback"];
 
     edge [style=invis];
     mailme->scrapbook;
