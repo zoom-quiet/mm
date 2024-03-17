@@ -41,6 +41,11 @@ TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://ww
 <style type="text/css">
 %(styleData)s
 </style>
+
+<!-- 240317 init. -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2551113274411029"
+     crossorigin="anonymous"></script>
+
 </head>
 <body>
 <!--Sticky Footer Solution  http://www.cssstickyfooter.com-->
